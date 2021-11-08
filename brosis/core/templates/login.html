@@ -1,0 +1,23 @@
+<!-- templates/login.html -->
+
+{% extends 'base.html' %}
+{% block title %} Sign in {% endblock %}
+{% block content %}
+<div class="row">
+    <div class="form-signin text-center " _lpchecked="1">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <a href="#" class="btn btn-block btn-social btn-facebook">
+            <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> -->
+            Login via Facebook
+        </a>
+        <a href="https://google.com" class="btn btn-block btn-social btn-google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png">
+            Login via Google
+        </a>
+        <a href="https://vk.com" class="btn btn-block btn-social btn-vk">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Vk_Logo.svg">
+            Login via VK
+        </a>
+    </div>
+</div>
+{% endblock %}
